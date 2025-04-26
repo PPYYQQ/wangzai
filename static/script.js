@@ -12,7 +12,7 @@ const data = [
       homepage: "https://pku.ai/author/yichao-zhou/"
     },
     {
-      name: "hongjie li",
+      name: "Hongjie Li",
       score: 2,
       email: "lihongjie@stu.pku.edu.cn",
       homepage: "https://awfuact.github.io/"
