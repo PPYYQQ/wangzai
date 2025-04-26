@@ -3,37 +3,43 @@ const data = [
       name: "Guangyuan Jiang",
       score: 4,
       email: "jgy@stu.pku.edu.cn",
-      homepage: "https://jiang.gy/"
+      homepage: "https://jiang.gy/",
+      identifier: "jgy"
     },
     {
       name: "Yichao Zhou",
       score: 4,
       email: "2100013086@stu.pku.edu.cn",
-      homepage: "https://pku.ai/author/yichao-zhou/"
+      homepage: "https://pku.ai/author/yichao-zhou/",
+      identifier: "zyc"
     },
     {
       name: "Hongjie Li",
       score: 2,
       email: "lihongjie@stu.pku.edu.cn",
-      homepage: "https://awfuact.github.io/"
+      homepage: "https://awfuact.github.io/",
+      identifier: "lhj"
     },
     {
       name: "Yongqian Peng",
       score: 2,
       email: "yqpeng@stu.pku.edu.cn",
-      homepage: "https://ppyyqq.github.io/"
+      homepage: "https://ppyyqq.github.io/",
+      identifier: "pyq"
     },
     {
       name: "Qianxu Wang",
       score: 3,
       email: "helloqxwang@gmail.com",
-      homepage: "https://qianxu.wang"
+      homepage: "https://qianxu.wang",
+      identifier: "wqx"
     },
     {
       name: "Yifei Wang",
       score: 2,
       email: "wyf181030@stu.pku.edu.cn",
-      homepage: "https://a-little-hoof.github.io/"
+      homepage: "https://a-little-hoof.github.io/",
+      identifier: "wyf"
     }
   ];
   
@@ -64,9 +70,9 @@ data.forEach((item, index) => {
   // 本地图片地址
   let avatarFile;
   if (item.score === highestScore) {
-    avatarFile = `./static/images/${item.name}_wz.jpg`;
+    avatarFile = `./static/images/${item.identifier}_wz.jpg`;
   } else {
-    avatarFile = `./static/images/${item.name}.jpg`;
+    avatarFile = `./static/images/${item.identifier}.jpg`;
   }
 
   li.innerHTML = `
