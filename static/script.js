@@ -64,9 +64,9 @@ data.forEach((item, index) => {
   // 本地图片地址
   let avatarFile;
   if (item.score === highestScore) {
-    avatarFile = `./images/${item.name}_wz.jpg`;
+    avatarFile = `static/images/${item.name}_wz.jpg`;
   } else {
-    avatarFile = `./images/${item.name}.jpg`;
+    avatarFile = `static/images/${item.name}.jpg`;
   }
 
   li.innerHTML = `
