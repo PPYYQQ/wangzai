@@ -1,17 +1,17 @@
 const data = [
     {
+      name: "Yichao Zhou",
+      score: 100,
+      email: "2100013086@stu.pku.edu.cn",
+      homepage: "https://pku.ai/author/yichao-zhou/",
+      identifier: "zyc"
+    },
+    {
       name: "Guangyuan Jiang",
       score: 4,
       email: "jgy@stu.pku.edu.cn",
       homepage: "https://jiang.gy/",
       identifier: "jgy"
-    },
-    {
-      name: "Yichao Zhou",
-      score: 3,
-      email: "2100013086@stu.pku.edu.cn",
-      homepage: "https://pku.ai/author/yichao-zhou/",
-      identifier: "zyc"
     },
     {
       name: "Hongjie Li",
