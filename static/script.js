@@ -29,7 +29,7 @@ const data = [
     },
     {
       name: "Qianxu Wang",
-      score: 3,
+      score: 4,
       email: "helloqxwang@gmail.com",
       homepage: "https://qianxu.wang",
       identifier: "wqx"
