@@ -1,7 +1,7 @@
 const data = [
     {
       name: "Yichao Zhou",
-      score: 100,
+      score: 3,
       email: "2100013086@stu.pku.edu.cn",
       homepage: "https://pku.ai/author/yichao-zhou/",
       identifier: "zyc"
