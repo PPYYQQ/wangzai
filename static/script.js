@@ -22,7 +22,7 @@ const data = [
     },
     {
       name: "Yongqian Peng",
-      score: 2,
+      score: 3,
       email: "yqpeng@stu.pku.edu.cn",
       homepage: "https://ppyyqq.github.io/",
       identifier: "pyq"
@@ -36,7 +36,7 @@ const data = [
     },
     {
       name: "Yifei Wang",
-      score: 3,
+      score: 4,
       email: "wyf181030@stu.pku.edu.cn",
       homepage: "https://a-little-hoof.github.io/",
       identifier: "wyf"
