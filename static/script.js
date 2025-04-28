@@ -1,7 +1,7 @@
 const data = [
     {
       name: "Yichao Zhou",
-      score: 3,
+      score: 4,
       email: "2100013086@stu.pku.edu.cn",
       homepage: "https://pku.ai/author/yichao-zhou/",
       identifier: "zyc"
@@ -15,7 +15,7 @@ const data = [
     },
     {
       name: "Hongjie Li",
-      score: 2,
+      score: 3,
       email: "lihongjie@stu.pku.edu.cn",
       homepage: "https://awfuact.github.io/",
       identifier: "lhj"
@@ -29,7 +29,7 @@ const data = [
     },
     {
       name: "Qianxu Wang",
-      score: 6,
+      score: 7,
       email: "helloqxwang@gmail.com",
       homepage: "https://qianxu.wang",
       identifier: "wqx"
