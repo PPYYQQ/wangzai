@@ -8,7 +8,7 @@ const data = [
     },
     {
       name: "Guangyuan Jiang",
-      score: 4,
+      score: 5,
       email: "jgy@stu.pku.edu.cn",
       homepage: "https://jiang.gy/",
       identifier: "jgy"
@@ -29,14 +29,14 @@ const data = [
     },
     {
       name: "Qianxu Wang",
-      score: 4,
+      score: 6,
       email: "helloqxwang@gmail.com",
       homepage: "https://qianxu.wang",
       identifier: "wqx"
     },
     {
       name: "Yifei Wang",
-      score: 2,
+      score: 3,
       email: "wyf181030@stu.pku.edu.cn",
       homepage: "https://a-little-hoof.github.io/",
       identifier: "wyf"
