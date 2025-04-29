@@ -15,7 +15,7 @@ const data = [
     },
     {
       name: "Hongjie Li",
-      score: 4,
+      score: 5,
       email: "lihongjie@stu.pku.edu.cn",
       homepage: "https://awfuact.github.io/",
       identifier: "lhj"
