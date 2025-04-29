@@ -29,7 +29,7 @@ const data = [
     },
     {
       name: "Qianxu Wang",
-      score: 7,
+      score: 9,
       email: "helloqxwang@gmail.com",
       homepage: "https://qianxu.wang",
       identifier: "wqx"
@@ -62,6 +62,7 @@ data.sort((a, b) => b.score - a.score);
 
 // Find highest score
 const highestScore = data[0].score;
+const lowestScore = data[-1].score;
 
 // Render
 const leaderboard = document.getElementById('leaderboard');
@@ -83,7 +84,7 @@ data.forEach((item, index) => {
 
   // 本地图片地址
   let avatarFile;
-  if (item.score === highestScore) {
+  if (item.score === highestScore or item.score === lowestScore) {
     avatarFile = `./static/images/${item.identifier}_wz.jpg`;
   } else {
     avatarFile = `./static/images/${item.identifier}.jpg`;
