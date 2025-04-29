@@ -15,14 +15,14 @@ const data = [
     },
     {
       name: "Hongjie Li",
-      score: 3,
+      score: 4,
       email: "lihongjie@stu.pku.edu.cn",
       homepage: "https://awfuact.github.io/",
       identifier: "lhj"
     },
     {
       name: "Yongqian Peng",
-      score: 3,
+      score: 4,
       email: "yqpeng@stu.pku.edu.cn",
       homepage: "https://ppyyqq.github.io/",
       identifier: "pyq"
@@ -36,10 +36,24 @@ const data = [
     },
     {
       name: "Yifei Wang",
-      score: 4,
+      score: 5,
       email: "wyf181030@stu.pku.edu.cn",
       homepage: "https://a-little-hoof.github.io/",
       identifier: "wyf"
+    },
+    {
+      name: "Saiyao Zhang",
+      score: 3,
+      email: "saiyao.zsy@gmail.com",
+      homepage: "https://saiyaozhang.com/",
+      identifier: "zsy"
+    },
+    {
+      name: "Yuxi Ma",
+      score: 2,
+      email: "mayuxi987@gmail.com",
+      homepage: "https://mayuxi.com/",
+      identifier: "myx"
     }
   ];
   
