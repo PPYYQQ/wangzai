@@ -54,6 +54,13 @@ const data = [
       email: "mayuxi987@gmail.com",
       homepage: "https://mayuxi.com/",
       identifier: "myx"
+    },
+    {
+      name: "Leiyao Cui",
+      score: 1,
+      email: "cuileiyaony@gmail.com",
+      homepage: "https://lycui.com/",
+      identifier: "cly"
     }
   ];
   
