@@ -86,3 +86,17 @@ body {
   .links a:hover {
     background: rgba(255, 255, 255, 0.4);
   }
+
+  .score-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .score-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }

@@ -97,10 +97,16 @@ data.forEach((item, index) => {
     avatarFile = `./static/images/${item.identifier}.jpg`;
   }
 
+   // 得分图标
+   const scoreIcons = '<div class="score-icons">' +
+   '<img src="static/images/wz.png" class="score-icon">'.repeat(item.score) +
+   '</div>';
+
   li.innerHTML = `
     <img src="${avatarFile}" alt="${item.name}" class="avatar">
     <div class="name">#${realRank} ${item.name}</div>
     <div class="score">Score: ${item.score}</div>
+          ${scoreIcons}
     <div class="links">
       <a href="mailto:${item.email}">📧 Email</a>
       <a href="${item.homepage}" target="_blank">🏠 Website</a>
